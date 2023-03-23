@@ -1,0 +1,75 @@
+{
+  "id": "72e1c7a9-3125-4590-9667-76776d89d6d7",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "awaiting_login",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c491cae0-8597-42de-9cfe-59523fa6ba70",
+          "name": "loginID",
+          "required": false,
+          "dataType": "@LoginID",
+          "value": "$loginID",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hi there, welcome to the chatroom! I\u0027m your assistant bot.\n\nBefore we start, please log-in with your login ID :\n\n❗ Login ID \u003d last 4 digits + character of admin number\n(E.g. 1234567A, id \u003d 4567A)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://firebasestorage.googleapis.com/v0/b/almgtbot.appspot.com/o/To%20start%2C%20key%20in%20your%20login%20ID%20in%20the%20chat%20window%20below.%20Here\u0027s%20a%20tip%20Your%20login%20ID%20%3D%20last%204%20digits%20%2B%20character%20of%20your%20admin%20number.%20E.g.%201234567A%2C%20ID%20%3D%204567A%20(1).gif?alt\u003dmedia\u0026token\u003d169d5dca-d92f-45b6-a0c5-a1f9fa14a025",
+                  "type": "image"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
