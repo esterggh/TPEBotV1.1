@@ -1,0 +1,17 @@
+[
+  {
+    "id": "a31cec34-acab-4ce3-896f-06bb6cd1fec0",
+    "data": [
+      {
+        "text": "0080e",
+        "meta": "@LoginID",
+        "alias": "loginID",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

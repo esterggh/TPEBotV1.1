@@ -1,0 +1,54 @@
+[
+  {
+    "id": "02926023-c856-4ffa-883d-04fcad02c985",
+    "data": [
+      {
+        "text": "contact tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ad599d6-7dfa-42d0-9d17-f84b2523b938",
+    "data": [
+      {
+        "text": "get help from tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6861140f-3a44-42a6-8d14-c980fd069560",
+    "data": [
+      {
+        "text": "email tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51a0ef59-9436-4e89-a8a2-259a37970a50",
+    "data": [
+      {
+        "text": "Send an Email Enquiry. 📧",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
