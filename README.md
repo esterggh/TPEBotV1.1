@@ -7,21 +7,19 @@ TPEBot is a Python library for personalised chatbot building.
 Use the package manager to install TPEBot.
 
 ```bash
-pip install git+https://github.com/esterggh/tpebot.git
+pip install git+https://github.com/esterggh/TPEBotV1.1.git
+
+or
+
+pip install TPE_Bot==1.1.0
 ```
 
 ## Usage
 
-```python
-import buildABot
-from buildABot import Manager
-
-# create an object
-chatbot = Manager()
-
-# call methods from object
-chatbot.createIntents()
-
+```bash
+Go to command prompt
+cd to folder directory
+key in `python main.py`
 ```
 
 ## Contributing
